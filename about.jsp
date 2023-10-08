@@ -45,7 +45,7 @@
                         <%-- if user logged in, show "my account"; else, show "login" and "register" menus --%>
                         <c:choose>
                             <c:when test="${not empty user}">
-                                <li><a href="myaccount.jsp">my accout</a></li>
+                                <li><a href="myaccount.jsp">my account</a></li>
                             </c:when>
                             <c:otherwise>
                                 <li><a href="login.jsp">login</a></li>
